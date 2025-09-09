@@ -1,0 +1,32 @@
+{
+  "name": "emailer",
+  "version": "1.0.0",
+  "description": "tired of sending HRs custom emails? try this , just enter Company name. Email [] , and Postion and see the magic happen",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "ts-node-esm index.ts",
+    "send" : "node --loader ts-node/esm index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "emailer"
+  },
+  "keywords": [
+    "email",
+    "generator"
+  ],
+  "dependencies": {
+    "@types/node": "^22.15.29",
+    "dotenv": "^16.5.0",
+    "nodemailer": "^6.10.1"
+  },
+  "devDependencies": {
+    "@types/nodemailer": "^6.4.17",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "author": "Adyaman Singh",
+  "license": "ISC"
+}
